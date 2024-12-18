@@ -14,30 +14,31 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-5 ar
       And since the steps in this file are difficult to do in one day, we recommend doing them 3-4 hours a day for 2-3 days.
 ```
 
-#### 1. Download images
+
+
+### 1. Download images
 
 ![화면 캡처 2024-12-19 014545](https://github.com/user-attachments/assets/86d6c6e6-bd53-4e94-bd7e-ccc3e40dafa8)
+
 
 ##### GO to 'https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write' and download the file for your computer's operating system.
 ##### And unzip the image file
 
-```
-2. Format your SD Card for SD Memory Card Formatter program
-```
+
+
+### 2. Format your SD Card for SD Memory Card Formatter program
 
 ![화면 캡처 2024-12-19 015407](https://github.com/user-attachments/assets/de929b3f-c47d-4e2b-bacf-6bbf7a4a091f)
 ![image](https://github.com/user-attachments/assets/93e80f1f-637a-4640-bc16-8b1e15d5176b)
 ![image](https://github.com/user-attachments/assets/b4469e0d-5d19-46ec-9052-6c69eaf8435f)
 
 
-```
-GO to 'https://sd-memory-card-formatter.en.softonic.com/download','https://etcher.balena.io/' and download the file' and download the file.
-When you finish download, format your sd card(follow image 2,3).
-```
+##### GO to 'https://sd-memory-card-formatter.en.softonic.com/download','https://etcher.balena.io/' and download the file' and download the file.
+##### When you finish download, format your sd card(follow image 2,3).
 
-```
-3. Bake downloaded images
-```
+
+
+### 3. Bake downloaded images
 
 ![image](https://github.com/user-attachments/assets/1dcca447-5a4c-44cb-a1a7-ab75c26267c8)
 ![image](https://github.com/user-attachments/assets/e60f4365-91be-494b-be4d-cbb34a498998)
@@ -46,30 +47,29 @@ When you finish download, format your sd card(follow image 2,3).
 ![image](https://github.com/user-attachments/assets/8564ede9-f2bb-4505-bf6e-2900e18cb466)
 ![image](https://github.com/user-attachments/assets/32f7ba98-a506-481d-840f-ba73ebf9ac4b)
 
-```
-GO to 'https://etcher.balena.io/','https://etcher.balena.io/' and download the file' and download the file.
-When you finish download, Put the image you downloaded in step 1 into your SD card.
-Then, follow the image 2-6 times, and bake the downloaded image.
-```
 
-```
-1. Assemble Jetson Nano
-```
+##### GO to 'https://etcher.balena.io/','https://etcher.balena.io/' and download the file' and download the file.
+##### When you finish download, Put the image you downloaded in step 1 into your SD card.
+##### Then, follow the image 2-6 times, and bake the downloaded image.
+
+
+
+### 3. Assemble Jetson Nano
 
 ![KakaoTalk_20241128_214356790_04](https://github.com/user-attachments/assets/1bc22d5f-6785-476f-ac9a-f135a0e2cbf7)
-###
 
-```
-- Insert the SD card containing the baked image into the Jetson Nano slot and gently press it. 
-- Insert the hdmi wire cable 
-- Insert wired mouse and keyboard cables
-- Insert wired LAN USB
-- Connecting the power(5A)
 
-```
-```
-2. 우분투 설치
-```
+##### - Insert the SD card containing the baked image into the Jetson Nano slot and gently press it. 
+##### - Insert the hdmi wire cable 
+##### - Insert wired mouse and keyboard cables
+##### - Insert wired LAN USB
+##### - Connecting the power(5A)
+
+
+
+### 4. Jetson Nano Installation
+
+##### Install Jetson Nano following the images below
 
 ![KakaoTalk_20241128_214356790_06](https://github.com/user-attachments/assets/4b14d757-ca1a-4d19-bf7a-0f4fcaffb056)
 ![KakaoTalk_20241128_214356790_12](https://github.com/user-attachments/assets/b11d5f87-b292-4c07-9d8c-0d6a85fe0b8f)
@@ -90,7 +90,7 @@ Then, follow the image 2-6 times, and bake the downloaded image.
 ![KakaoTalk_20241128_215122143_15](https://github.com/user-attachments/assets/6159f73f-805a-484f-b3b9-2388ee6ccbd0)
 ![KakaoTalk_20241128_215122143_17](https://github.com/user-attachments/assets/c95807d0-4bbe-4ec8-b5f5-a5c0cdcfc87b)
 ![KakaoTalk_20241128_215122143_18](https://github.com/user-attachments/assets/ae50df59-96ef-43fa-a0d9-86e638e95146)
-###
+
 ```
 3. L4T-Readme 살펴보기 & ifconfig
 ```
@@ -104,7 +104,7 @@ Then, follow the image 2-6 times, and bake the downloaded image.
 ![KakaoTalk_20241128_215122143_26](https://github.com/user-attachments/assets/bd2d09fa-d29c-421d-bee4-adaa42f379a3)
 ![KakaoTalk_20241128_215122143_28](https://github.com/user-attachments/assets/9d038fcb-3435-4bb4-9bec-5b983047220b)
 ![KakaoTalk_20241128_215122143_29](https://github.com/user-attachments/assets/c8c6cc3a-d95d-4612-9213-36895f6110e6)
-###
+
 ```
 4. 잭슨 나노 한글 설치
 ```
