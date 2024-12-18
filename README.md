@@ -19,21 +19,21 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-3 ar
 
 
 
-### 1. Download images
+## 1. Download images
 
 
 ![화면 캡처 2024-12-19 014545](https://github.com/user-attachments/assets/86d6c6e6-bd53-4e94-bd7e-ccc3e40dafa8)
 
 
-#### GO to 'https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write' and download the file for your computer's operating system.
-#### And unzip the image file
+### GO to 'https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write' and download the file for your computer's operating system.
+### And unzip the image file
 
 
 
 
 
 
-### 2. Format your SD Card for SD Memory Card Formatter program
+## 2. Format your SD Card for SD Memory Card Formatter program
 
 
 ![화면 캡처 2024-12-19 015407](https://github.com/user-attachments/assets/de929b3f-c47d-4e2b-bacf-6bbf7a4a091f)
@@ -41,15 +41,15 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-3 ar
 ![image](https://github.com/user-attachments/assets/b4469e0d-5d19-46ec-9052-6c69eaf8435f)
 
 
-##### GO to 'https://sd-memory-card-formatter.en.softonic.com/download','https://etcher.balena.io/' and download the file' and download the file.
-##### When you finish download, format your sd card(follow image 2,3).
+### GO to 'https://sd-memory-card-formatter.en.softonic.com/download','https://etcher.balena.io/' and download the file' and download the file.
+### When you finish download, format your sd card(follow image 2,3).
 
 
 
 
 
 
-### 3. Bake downloaded images
+## 3. Bake downloaded images
 
 
 ![image](https://github.com/user-attachments/assets/1dcca447-5a4c-44cb-a1a7-ab75c26267c8)
@@ -60,36 +60,36 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-3 ar
 ![image](https://github.com/user-attachments/assets/32f7ba98-a506-481d-840f-ba73ebf9ac4b)
 
 
-##### GO to 'https://etcher.balena.io/','https://etcher.balena.io/' and download the file' and download the file.
-##### When you finish download, Put the image you downloaded in step 1 into your SD card.
-##### Then, follow the image 2-6 times, and bake the downloaded image.
+### GO to 'https://etcher.balena.io/','https://etcher.balena.io/' and download the file' and download the file.
+### When you finish download, Put the image you downloaded in step 1 into your SD card.
+### Then, follow the image 2-6 times, and bake the downloaded image.
 
 
 
 
 
 
-### 4. Assemble Jetson Nano
+## 4. Assemble Jetson Nano
 
 
 ![KakaoTalk_20241128_214356790_04](https://github.com/user-attachments/assets/1bc22d5f-6785-476f-ac9a-f135a0e2cbf7)
 
 
-##### - Insert the SD card containing the baked image into the Jetson Nano slot and gently press it. 
-##### - Insert the hdmi wire cable 
-##### - Insert wired mouse and keyboard cables
-##### - Insert wired LAN USB
-##### - Connecting the power(5A)
+### - Insert the SD card containing the baked image into the Jetson Nano slot and gently press it. 
+### - Insert the hdmi wire cable 
+### - Insert wired mouse and keyboard cables
+### - Insert wired LAN USB
+### - Connecting the power(5A)
 
 
 
 
 
 
-### 5. Jetson Nano Installation
+## 5. Jetson Nano Installation
 
 
-##### Install Jetson Nano following the images below
+### Install Jetson Nano following the images below
 
 
 ![KakaoTalk_20241128_214356790_06](https://github.com/user-attachments/assets/4b14d757-ca1a-4d19-bf7a-0f4fcaffb056)
@@ -99,7 +99,7 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-3 ar
 ![KakaoTalk_20241128_214356790_20](https://github.com/user-attachments/assets/cb21e048-b21a-482b-9f8d-634485670470)
 
 
-##### Choose English.(image 4,5 )
+### Choose English.(image 4,5 )
 
 
 ![KakaoTalk_20241128_214356790_22](https://github.com/user-attachments/assets/51633137-b97f-449c-8a09-5c6f78a6ec1e)
@@ -108,20 +108,20 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-3 ar
 ![KakaoTalk_20241128_214356790_29](https://github.com/user-attachments/assets/aee9b4e0-6780-4ef0-acba-e928affd6af3)
 
 
-##### Choose the capital of your country.
+### Choose the capital of your country.
 
 
 ![KakaoTalk_20241128_214356790_30](https://github.com/user-attachments/assets/9f88e68e-61e5-471d-929c-d351c24c8dcc)
 ![KakaoTalk_20241128_215122143_05](https://github.com/user-attachments/assets/c7fdf4c7-c706-465f-8e3a-eeeba64e7a6b)
 
 
-##### Make your name and password the same. And as in the example, it's easy to remember to make short.
+### Make your name and password the same. And as in the example, it's easy to remember to make short.
 
 
 ![KakaoTalk_20241128_215122143_06](https://github.com/user-attachments/assets/af0d4989-abee-4526-bb51-b2532081b657)
 
 
-##### Add Maxium accepted size as it says in the computer window
+### Add Maxium accepted size as it says in the computer window
 
 
 ![image](https://github.com/user-attachments/assets/65f95c51-5c90-47ec-a8f6-16e8adffbb32)
@@ -130,10 +130,12 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-3 ar
 ![KakaoTalk_20241128_215122143_14](https://github.com/user-attachments/assets/49ade21d-a3af-4635-a03a-5a3f2c3843aa)
 ![image](https://github.com/user-attachments/assets/a92db102-bc7d-4f01-aa89-06383f92a2ad)
 
-##### Computer reboot is start 
+### Computer reboot is start 
 ![KakaoTalk_20241128_215122143_15](https://github.com/user-attachments/assets/6159f73f-805a-484f-b3b9-2388ee6ccbd0)
 ![KakaoTalk_20241128_215122143_17](https://github.com/user-attachments/assets/c95807d0-4bbe-4ec8-b5f5-a5c0cdcfc87b)
 ![KakaoTalk_20241128_215122143_18](https://github.com/user-attachments/assets/ae50df59-96ef-43fa-a0d9-86e638e95146)
+
+### The Jetson Nano installation is complete.
 
 ```
 3. L4T-Readme 살펴보기 & ifconfig
