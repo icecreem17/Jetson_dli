@@ -9,6 +9,7 @@ Supplies
 4. power(You have to use 5A with power. If you use more than that, Jetson Nano will be ruined.)
 5. Wired mouse and keyboard(Wireless mice and keyboards are also available, but this repository does not show how to connect them.)
 6. SD card(least to 32 GB)
+7. USB Camera(It doesn't matter if I use another camera, but this repository only covers USB-Camera.)
 
 P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-3 are different. So please find a method that suits your computer.
       And since the steps in this file are difficult to do in one day, we recommend doing them 3-4 hours a day for 2-3 days.
@@ -219,7 +220,7 @@ sudo apt-get install fcitx-hangul
 ```
 
 
-### Ask Chatgpt or another AI what file code is installing your native language.
+### fictx-hangul : Ask Chatgpt or another AI what file code is installing your native language.
 
 
 ![KakaoTalk_20241128_215141595_09](https://github.com/user-attachments/assets/9de4399b-457f-4f23-ab09-2e91577308e0)
@@ -235,77 +236,216 @@ sudo apt-get install fcitx-hangul
 
 
 ![KakaoTalk_20241128_215141595_12](https://github.com/user-attachments/assets/c9bdb197-d3f2-4921-b06d-42ec0268fabf)
-![KakaoTalk_20241128_215141595_14](https://github.com/user-attachments/assets/18cf6daa-1836-4e0a-bddb-835961929f68)
 
 
 ### If it runs as above, it says that it installs various language-related things. And install them.
 
 
+![KakaoTalk_20241128_215141595_14](https://github.com/user-attachments/assets/18cf6daa-1836-4e0a-bddb-835961929f68)
 ![KakaoTalk_20241128_215141595_16](https://github.com/user-attachments/assets/0aec0515-3358-42de-a6d5-82ffba3369a8)
 ![KakaoTalk_20241128_215141595_17](https://github.com/user-attachments/assets/9787bb6d-34c8-42f6-8ffa-118f4538b00e)
+
+
+### When the installation is complete, change the lower keyboard input method system item to fcitx.
+### And reboot by entering the code below
+
+
+```
+code
+im-config -n fcitx
+```
+
+
 ![KakaoTalk_20241114_184028807](https://github.com/user-attachments/assets/e7bd0456-608a-486b-8ed4-6df9e4007686)
 ![KakaoTalk_20241114_184028807_01](https://github.com/user-attachments/assets/6f5923d1-277b-4f20-a6fa-071122d3d931)
+
+
+### When the Add input method window appears, uncheck "Only Show Current Language" and enter your native language to search for it.
+
+
 ![KakaoTalk_20241114_184028807_02](https://github.com/user-attachments/assets/53871aeb-74bb-432b-b43c-2ce575c0791e)
+
+
+### Your native language addition is done, and it looks like above. Keyboard-English (US) can or can't be.
+
+
 ![KakaoTalk_20241114_184028807_03](https://github.com/user-attachments/assets/1e10cd75-019e-4310-aeea-fe65a15e5839)
+
+
+### Now click the Global Config tab in the Input Method Configuration.
+
+
 ![KakaoTalk_20241114_184028807_04](https://github.com/user-attachments/assets/548d8c5e-c6bb-44b4-badc-056601b73fe8)
+
+
+### Click the left button of the Trigger Input Method, and then press "your navte Youngkey" to replace it, and it's over.
+
+
+![image](https://github.com/user-attachments/assets/71150216-59a8-402a-b1a1-8a1e6a41ba68)
 ![Screenshot from 2024-11-14 20-51-02](https://github.com/user-attachments/assets/46ddcb10-888a-4458-9901-f863b119ff4d)
 
-#### day 2 :
+
+### Press the keyboard on the top or bottom of the right or your keyboard Language Conversion keyt o get a Korean-style Taegeuk pattern(or your nation pattern)
+### If the shape of the national flag came out, it's completed.
+
+
+
+
+
+
+## 8. Jackson Nano Photography & Video Capture
+
+
+### From here on, the explanation process is for code, and the execution results are shown.
+### If you want to know the explanation process, I recommend you to take the nvidia(dil) < Getting started with AL on Jetson Nano( explain in english ) > lecture.
+
 
 ```
-1. 잭슨 나노 영상 캡쳐 이미지
+code
+sudo apt install python3-pip
 ```
+
+### do you want to continue ? enter 'y'
+
+
+```
+code
+sudo -H pip3 install -U jetson-stats
+````
+
+### if you get an error, 
+
+
+```
+code
+sudo apt-get upgrade
+sudo apt-get update
+````
+
+
+### Verify that the version of jetson-stats-4.2.3 or higher has been written.
+
+
+```
+code
+sudo apt-get reboot
+sudo apt-get jtop
+````
+
+
+![image](https://github.com/user-attachments/assets/7b33ddca-c504-4b57-b9ee-8393d3c1eec5)
+
+
+### Install a cooling fan because you can see that the temperature is very high.
+
+
+```
+code
+sudo sh -c 'echo 128 > /sys/devices/pwm-fan/target_pwm
+sudo apt-get jtop
+````
+
+
+### Check Jetson Nano's temperature
+### Connect the Jetson Nano and USB-Camera.
+
+
+```
+code
+ls /dev/vi*
+git clone https://github.com/jetsonhacks/USB-Camera.git
+ls
+cd USB-Camera
+ls
+python3 usb-camera-gst.py
+````
+
+
+### A camera-illuminated screen is shown on the Jetson Nano.
+
+
+```
+code
+cd USB-Camera
+ls
+python3 face-detect-usb.py
+````
+
+
+### Face recognition is recognized by the camera.
+
+
+```
+code
+nvgstcapture-1.0 --mode=1 --camsrc=0 --cap-dev-node=0 --automate --capture-auto
+````
+
+
+### Then, To capture the picture, Click the mouse and press 'j'.
+### click the mouse and press 'q'. your image is captured and restored in file home.
+### Examples(below)
+
 
 ![image](https://github.com/user-attachments/assets/4f6050d6-6fe3-41dd-886a-4f8b2a7a6888)
 ![Screenshot from 2024-11-14 20-59-17](https://github.com/user-attachments/assets/1ddb0609-342e-42b7-8a71-1262b339d05b)
-###
+
+
 ```
-2. 잭슨 나노 영상 캡쳐 동영상
-```
+code
+nvgstcapture-1.0 --mode=2 --camsrc=0 --cap-dev-node=0
+````
+
+
+### Then, To capture the video, Click the mouse and press '1'(start).
+### Second, Click the mouse and press 01'(stop).
+### Last, click the mouse and press 'q'. your video is captured and restored in file home.
+### Examples(below)
+
 
 https://github.com/user-attachments/assets/753b3ac5-ee2d-4176-bb74-15c2a446380b
-###
-```
-3. 엔비디아 사진 다운로드
-```
+
+
+
+
+
+
+## 9. NviDiA images download
+
+
+### From here on, the execution results are only shown(not explanation).
+### If you want to know the explanation process, I recommend you to take the nvidia(dil) < Getting started with AL on Jetson Nano( explain in english ) > lecture.
+
 
 ![Screenshot from 2024-11-14 21-45-16](https://github.com/user-attachments/assets/950ff074-5eb5-486b-b481-387118ec2d9f)
 ![Screenshot from 2024-11-14 21-45-32](https://github.com/user-attachments/assets/60e8b810-42c9-4dd8-8294-44478b930d15)
-
-#### day 3 :
-
-```
-1. 엔비디아 사진 다운로드 완료 & 주피터 노트북 url생성
-```
-
 ![Screenshot from 2024-11-21 18-54-55](https://github.com/user-attachments/assets/9586b14b-d830-40a7-b480-eaff1186b8e7)
-###
-```
-2. 스왑 18기가 생성
-```
+
+
+## 10. Create a swap 18 GB
+
 
 ![스왑 사진  jpg](https://github.com/user-attachments/assets/a7e28215-6e86-488c-8f4b-01feaf3d4039)
- -> reboot 중 GUI 모드로 설정하는 과정
+ -> Process of setting to GUI mode during reboot
+
 
 ![Screenshot from 2024-11-21 20-20-05](https://github.com/user-attachments/assets/9793be0a-ea05-4966-9041-73e2d057b8b4)
+-> Memory increased from 1.9 gigabytes to 18 gigabytes
 
- -> 메모리가 1.9기가 에서 18기가로 늘어난 것을 볼 수 있음
-###
-```
-3. 주피터 노트북 접속
-```
+
+## 3. 주피터 노트북 접속
+
 
 ![Screenshot from 2024-11-21 19-33-56](https://github.com/user-attachments/assets/cc3f49f8-a8ee-41e4-9002-1b09daa73b44)
-###
-```
+
+
 4. 엄지 방향 사진 학습
-```
+
 
 ![Screenshot from 2024-11-21 20-15-42](https://github.com/user-attachments/assets/a9084f30-7b82-4cbb-94a6-bd2273331c10)
-###
-```
+
+
 5. 엄지 방향 사진 예측 완료
-```
+
 
 ![Screenshot from 2024-11-21 20-23-43](https://github.com/user-attachments/assets/e84f3a5c-9297-408d-9863-99cf1b86ab61)
 ![Screenshot from 2024-11-21 20-24-24](https://github.com/user-attachments/assets/39db115d-eaa8-46e2-bc2b-9e46daa147e7)
