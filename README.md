@@ -8,9 +8,10 @@ Supplies
 3. LAN USB
 4. power(You have to use 5A with power. If you use more than that, Jetson Nano will be ruined.)
 5. Wired mouse and keyboard(Wireless mice and keyboards are also available, but this repository does not show how to connect them.)
-6. sdcard(least to 32 GB)
+6. SD card(least to 32 GB)
 
-P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-5 are different. So please find a method that suits you.
+P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-5 are different. So please find a method that suits your computer.
+      And since the steps in this file are difficult to do in one day, we recommend doing them 3-4 hours a day for 2-3 days.
 ```
 
 ```
@@ -20,22 +21,40 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-5 ar
 ![화면 캡처 2024-12-19 014545](https://github.com/user-attachments/assets/86d6c6e6-bd53-4e94-bd7e-ccc3e40dafa8)
 
 ```
-GO to 'https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write' and download the file for your computer's operating system
+GO to 'https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write' and download the file for your computer's operating system.
+And unzip the image file
 ```
 
 ```
-2. Download SD Memory Card Formatter program
+2. Format your SD Card for SD Memory Card Formatter program
 ```
 
 ![화면 캡처 2024-12-19 015407](https://github.com/user-attachments/assets/de929b3f-c47d-4e2b-bacf-6bbf7a4a091f)
 ![image](https://github.com/user-attachments/assets/93e80f1f-637a-4640-bc16-8b1e15d5176b)
+![image](https://github.com/user-attachments/assets/b4469e0d-5d19-46ec-9052-6c69eaf8435f)
 
 
 ```
-GO to 'https://sd-memory-card-formatter.en.softonic.com/download','https://etcher.balena.io/' and download the file' and download the file
-When you finish download, format your sd card
+GO to 'https://sd-memory-card-formatter.en.softonic.com/download','https://etcher.balena.io/' and download the file' and download the file.
+When you finish download, format your sd card(follow image 2,3).
 ```
-GO to 'https://etcher.balena.io/' and download the file' and download the file
+
+```
+3. Bake downloaded images
+```
+
+![image](https://github.com/user-attachments/assets/1dcca447-5a4c-44cb-a1a7-ab75c26267c8)
+![image](https://github.com/user-attachments/assets/e60f4365-91be-494b-be4d-cbb34a498998)
+![image](https://github.com/user-attachments/assets/fb537deb-05e8-4fb1-a027-92270fd95fd0)
+![image](https://github.com/user-attachments/assets/6a442712-7a56-411a-ae5a-70f32e7cb444)
+![image](https://github.com/user-attachments/assets/8564ede9-f2bb-4505-bf6e-2900e18cb466)
+![image](https://github.com/user-attachments/assets/32f7ba98-a506-481d-840f-ba73ebf9ac4b)
+
+```
+GO to 'https://etcher.balena.io/','https://etcher.balena.io/' and download the file' and download the file.
+When you finish download, Put the image you downloaded in step 1 into your SD card.
+Then, follow the image 2-6 times, and bake the downloaded image.
+```
 
 ```
 1. Assemble Jetson Nano
