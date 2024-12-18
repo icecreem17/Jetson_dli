@@ -438,13 +438,13 @@ https://github.com/user-attachments/assets/753b3ac5-ee2d-4176-bb74-15c2a446380b
 ![Screenshot from 2024-11-21 19-33-56](https://github.com/user-attachments/assets/cc3f49f8-a8ee-41e4-9002-1b09daa73b44)
 
 
-4. 엄지 방향 사진 학습
+## 4. 엄지 방향 사진 학습
 
 
 ![Screenshot from 2024-11-21 20-15-42](https://github.com/user-attachments/assets/a9084f30-7b82-4cbb-94a6-bd2273331c10)
 
 
-5. 엄지 방향 사진 예측 완료
+## 5. 엄지 방향 사진 예측 완료
 
 
 ![Screenshot from 2024-11-21 20-23-43](https://github.com/user-attachments/assets/e84f3a5c-9297-408d-9863-99cf1b86ab61)
