@@ -89,7 +89,7 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-3 ar
 ## 5. Jetson Nano Installation
 
 
-### Install Jetson Nano following the images below
+### Install Jetson Nano following the images below.
 
 
 ![KakaoTalk_20241128_214356790_06](https://github.com/user-attachments/assets/4b14d757-ca1a-4d19-bf7a-0f4fcaffb056)
@@ -112,16 +112,16 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-3 ar
 
 
 ![KakaoTalk_20241128_214356790_30](https://github.com/user-attachments/assets/9f88e68e-61e5-471d-929c-d351c24c8dcc)
-![KakaoTalk_20241128_215122143_05](https://github.com/user-attachments/assets/c7fdf4c7-c706-465f-8e3a-eeeba64e7a6b)
 
 
 ### Make your name and password the same. And as in the example, it's easy to remember to make short.
 
 
+![KakaoTalk_20241128_215122143_05](https://github.com/user-attachments/assets/c7fdf4c7-c706-465f-8e3a-eeeba64e7a6b)
 ![KakaoTalk_20241128_215122143_06](https://github.com/user-attachments/assets/af0d4989-abee-4526-bb51-b2532081b657)
 
 
-### Add Maxium accepted size as it says in the computer window
+### Add Maxium accepted size as it says in the computer window.
 
 
 ![image](https://github.com/user-attachments/assets/65f95c51-5c90-47ec-a8f6-16e8adffbb32)
@@ -137,9 +137,16 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-3 ar
 
 ### The Jetson Nano installation is complete.
 
-```
-3. L4T-Readme 살펴보기 & ifconfig
-```
+
+
+
+
+
+## 6. Examine L4T-Readme & ifconfig
+
+
+### You can skip these steps and Please refer to the blog that details how to use Jetson Nano.
+
 
 ![KakaoTalk_20241128_215122143_19](https://github.com/user-attachments/assets/3d77df6f-0ff0-4d9a-b201-8dc84d2dff2e)
 ![KakaoTalk_20241128_215122143_21](https://github.com/user-attachments/assets/3263f7eb-895d-4bb7-8be7-e3aba589c84a)
@@ -148,12 +155,44 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-3 ar
 ![KakaoTalk_20241128_215122143_24](https://github.com/user-attachments/assets/bdef3423-d426-4aaf-adb3-d9a915b7e8a9)
 ![KakaoTalk_20241128_215122143_25](https://github.com/user-attachments/assets/8c33fbe3-9deb-49a7-912b-323b1f0d9ccb)
 ![KakaoTalk_20241128_215122143_26](https://github.com/user-attachments/assets/bd2d09fa-d29c-421d-bee4-adaa42f379a3)
+
+
+### You can enter the password you set.
+
 ![KakaoTalk_20241128_215122143_28](https://github.com/user-attachments/assets/9d038fcb-3435-4bb4-9bec-5b983047220b)
-![KakaoTalk_20241128_215122143_29](https://github.com/user-attachments/assets/c8c6cc3a-d95d-4612-9213-36895f6110e6)
+
+
+### This image is checking Jetson Nano Hardware Running.
+
 
 ```
-4. 잭슨 나노 한글 설치
+code
+sudo nmcli device wifi list
 ```
+
+
+![KakaoTalk_20241128_215122143_29](https://github.com/user-attachments/assets/c8c6cc3a-d95d-4612-9213-36895f6110e6)
+
+
+### This image is checking Jetson Nano ifconfig.
+
+
+```
+code
+ifconfig
+```
+
+
+
+
+
+
+## 7. Installing languages that Jackson Nano does not include
+
+
+### If your native language is English or you are fluent in it, skip thins process. but if you don't, install your native language.
+### This course is the process of installing your native language (except English) and took Hangul as an example.
+
 
 ![KakaoTalk_20241128_215141595_02](https://github.com/user-attachments/assets/f7dce8e4-fcf5-4de0-af0f-b5ab9ec1159d)
 ![KakaoTalk_20241128_215141595_04](https://github.com/user-attachments/assets/80d9d093-4d5f-4e84-b0ce-0a96d1f37363)
@@ -164,7 +203,6 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-3 ar
 ![KakaoTalk_20241128_215141595_09](https://github.com/user-attachments/assets/9de4399b-457f-4f23-ab09-2e91577308e0)
 ![KakaoTalk_20241128_215141595_12](https://github.com/user-attachments/assets/c9bdb197-d3f2-4921-b06d-42ec0268fabf)
 ![KakaoTalk_20241128_215141595_14](https://github.com/user-attachments/assets/18cf6daa-1836-4e0a-bddb-835961929f68)
-![KakaoTalk_20241128_215141595_15](https://github.com/user-attachments/assets/21d843cb-2993-4d9a-b65f-c94e2d94d5b0)
 ![KakaoTalk_20241128_215141595_16](https://github.com/user-attachments/assets/0aec0515-3358-42de-a6d5-82ffba3369a8)
 ![KakaoTalk_20241128_215141595_17](https://github.com/user-attachments/assets/9787bb6d-34c8-42f6-8ffa-118f4538b00e)
 ![KakaoTalk_20241114_184028807](https://github.com/user-attachments/assets/e7bd0456-608a-486b-8ed4-6df9e4007686)
