@@ -195,14 +195,52 @@ ifconfig
 
 
 ![KakaoTalk_20241128_215141595_02](https://github.com/user-attachments/assets/f7dce8e4-fcf5-4de0-af0f-b5ab9ec1159d)
+
+
+```
+code
+sudo apt-get update
+```
+
+
 ![KakaoTalk_20241128_215141595_04](https://github.com/user-attachments/assets/80d9d093-4d5f-4e84-b0ce-0a96d1f37363)
-![KakaoTalk_20241128_215141595_05](https://github.com/user-attachments/assets/aedcd221-7d2b-4f8e-b1c2-94324350168b)
-![KakaoTalk_20241128_215141595_06](https://github.com/user-attachments/assets/9ce59ff2-547c-4c79-b45d-17fe69eef8aa)
 ![KakaoTalk_20241128_215141595_07](https://github.com/user-attachments/assets/80d1186a-c0d1-4b41-82b5-4bd142c9383d)
+
+
+### On the last line, [ Do you want to continue? [Y/n] ]'s written on the last line. So enter 'y'
+
+
 ![KakaoTalk_20241128_215141595_08](https://github.com/user-attachments/assets/f158951f-d387-44e6-8731-4caf60857506)
+
+
+```
+code
+sudo apt-get install fcitx-hangul
+```
+
+
+### Ask Chatgpt or another AI what file code is installing your native language.
+
+
 ![KakaoTalk_20241128_215141595_09](https://github.com/user-attachments/assets/9de4399b-457f-4f23-ab09-2e91577308e0)
+
+
+### On the last line, [ Do you want to continue? [Y/n] ]'s written on the last line. So enter 'y'
+
+
+![image](https://github.com/user-attachments/assets/418c4afc-bac7-4634-85f9-3e58ef54125b)
+
+
+### In Jetson Nano Setting, press the 'Region & Language' button and execute the Managed Language button.
+
+
 ![KakaoTalk_20241128_215141595_12](https://github.com/user-attachments/assets/c9bdb197-d3f2-4921-b06d-42ec0268fabf)
 ![KakaoTalk_20241128_215141595_14](https://github.com/user-attachments/assets/18cf6daa-1836-4e0a-bddb-835961929f68)
+
+
+### If it runs as above, it says that it installs various language-related things. And install them.
+
+
 ![KakaoTalk_20241128_215141595_16](https://github.com/user-attachments/assets/0aec0515-3358-42de-a6d5-82ffba3369a8)
 ![KakaoTalk_20241128_215141595_17](https://github.com/user-attachments/assets/9787bb6d-34c8-42f6-8ffa-118f4538b00e)
 ![KakaoTalk_20241114_184028807](https://github.com/user-attachments/assets/e7bd0456-608a-486b-8ed4-6df9e4007686)
