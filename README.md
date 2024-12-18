@@ -1,8 +1,41 @@
 # Jetson_dli_SUJIN PARK
 
 ### Learn the basics of Jetson Nano
+```
+Supplies
+1. Jetson Nano
+2. monitor(Recommend having a monitor in addition to your computer. If you use it on your computer (especially a laptop), there is a possibility of an OS collision.)
+3. LAN USB
+4. power(You have to use 5A with power. If you use more than that, Jetson Nano will be ruined.)
+5. Wired mouse and keyboard(Wireless mice and keyboards are also available, but this repository does not show how to connect them.)
+6. sdcard(least to 32 GB)
 
-#### day 1 : 
+P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-5 are different. So please find a method that suits you.
+```
+
+```
+1. Download images
+```
+
+![화면 캡처 2024-12-19 014545](https://github.com/user-attachments/assets/86d6c6e6-bd53-4e94-bd7e-ccc3e40dafa8)
+
+```
+GO to 'https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write' and download the file for your computer's operating system
+```
+
+```
+2. Download SD Memory Card Formatter program
+```
+
+![화면 캡처 2024-12-19 015407](https://github.com/user-attachments/assets/de929b3f-c47d-4e2b-bacf-6bbf7a4a091f)
+![image](https://github.com/user-attachments/assets/93e80f1f-637a-4640-bc16-8b1e15d5176b)
+
+
+```
+GO to 'https://sd-memory-card-formatter.en.softonic.com/download','https://etcher.balena.io/' and download the file' and download the file
+When you finish download, format your sd card
+```
+GO to 'https://etcher.balena.io/' and download the file' and download the file
 
 ```
 1. Assemble Jetson Nano
@@ -10,6 +43,15 @@
 
 ![KakaoTalk_20241128_214356790_04](https://github.com/user-attachments/assets/1bc22d5f-6785-476f-ac9a-f135a0e2cbf7)
 ###
+
+```
+- Insert the SD card containing the baked image into the Jetson Nano slot and gently press it. 
+- Insert the hdmi wire cable 
+- Insert wired mouse and keyboard cables
+- Insert wired LAN USB
+- Connecting the power(5A)
+
+```
 ```
 2. 우분투 설치
 ```
