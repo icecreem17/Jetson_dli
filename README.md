@@ -1,6 +1,6 @@
 # Jetson_dli_SUJIN PARK
 
-### Learn the basics of Jetson Nano
+## Learn the basics of Jetson Nano
 ```
 Supplies
 1. Jetson Nano
@@ -10,7 +10,7 @@ Supplies
 5. Wired mouse and keyboard(Wireless mice and keyboards are also available, but this repository does not show how to connect them.)
 6. SD card(least to 32 GB)
 
-P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-5 are different. So please find a method that suits your computer.
+P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-3 are different. So please find a method that suits your computer.
       And since the steps in this file are difficult to do in one day, we recommend doing them 3-4 hours a day for 2-3 days.
 ```
 
@@ -25,10 +25,8 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-5 ar
 ![화면 캡처 2024-12-19 014545](https://github.com/user-attachments/assets/86d6c6e6-bd53-4e94-bd7e-ccc3e40dafa8)
 
 
-
-
-##### GO to 'https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write' and download the file for your computer's operating system.
-##### And unzip the image file
+### GO to 'https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write' and download the file for your computer's operating system.
+### And unzip the image file
 
 
 
@@ -41,8 +39,6 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-5 ar
 ![화면 캡처 2024-12-19 015407](https://github.com/user-attachments/assets/de929b3f-c47d-4e2b-bacf-6bbf7a4a091f)
 ![image](https://github.com/user-attachments/assets/93e80f1f-637a-4640-bc16-8b1e15d5176b)
 ![image](https://github.com/user-attachments/assets/b4469e0d-5d19-46ec-9052-6c69eaf8435f)
-
-
 
 
 ##### GO to 'https://sd-memory-card-formatter.en.softonic.com/download','https://etcher.balena.io/' and download the file' and download the file.
@@ -64,8 +60,6 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-5 ar
 ![image](https://github.com/user-attachments/assets/32f7ba98-a506-481d-840f-ba73ebf9ac4b)
 
 
-
-
 ##### GO to 'https://etcher.balena.io/','https://etcher.balena.io/' and download the file' and download the file.
 ##### When you finish download, Put the image you downloaded in step 1 into your SD card.
 ##### Then, follow the image 2-6 times, and bake the downloaded image.
@@ -75,12 +69,10 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-5 ar
 
 
 
-### 3. Assemble Jetson Nano
+### 4. Assemble Jetson Nano
 
 
 ![KakaoTalk_20241128_214356790_04](https://github.com/user-attachments/assets/1bc22d5f-6785-476f-ac9a-f135a0e2cbf7)
-
-
 
 
 ##### - Insert the SD card containing the baked image into the Jetson Nano slot and gently press it. 
@@ -94,12 +86,10 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-5 ar
 
 
 
-### 4. Jetson Nano Installation
+### 5. Jetson Nano Installation
 
 
 ##### Install Jetson Nano following the images below
-
-
 
 
 ![KakaoTalk_20241128_214356790_06](https://github.com/user-attachments/assets/4b14d757-ca1a-4d19-bf7a-0f4fcaffb056)
@@ -139,6 +129,8 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-5 ar
 ![KakaoTalk_20241128_215122143_12](https://github.com/user-attachments/assets/32e79e12-0922-4293-9217-bbe66d048d15)
 ![KakaoTalk_20241128_215122143_14](https://github.com/user-attachments/assets/49ade21d-a3af-4635-a03a-5a3f2c3843aa)
 ![image](https://github.com/user-attachments/assets/a92db102-bc7d-4f01-aa89-06383f92a2ad)
+
+##### Computer reboot is start 
 ![KakaoTalk_20241128_215122143_15](https://github.com/user-attachments/assets/6159f73f-805a-484f-b3b9-2388ee6ccbd0)
 ![KakaoTalk_20241128_215122143_17](https://github.com/user-attachments/assets/c95807d0-4bbe-4ec8-b5f5-a5c0cdcfc87b)
 ![KakaoTalk_20241128_215122143_18](https://github.com/user-attachments/assets/ae50df59-96ef-43fa-a0d9-86e638e95146)
