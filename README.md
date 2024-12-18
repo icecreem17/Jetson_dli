@@ -25,8 +25,8 @@ P. S. MY laptop OS is Window. If your computer's OS is not Windows, steps 2-3 ar
 ![화면 캡처 2024-12-19 014545](https://github.com/user-attachments/assets/86d6c6e6-bd53-4e94-bd7e-ccc3e40dafa8)
 
 
-### GO to 'https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write' and download the file for your computer's operating system.
-### And unzip the image file
+#### GO to 'https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write' and download the file for your computer's operating system.
+#### And unzip the image file
 
 
 
